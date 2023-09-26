@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "NodeNext",
+    "lib": ["ES6"],
+    "moduleResolution": "NodeNext",
+    "rootDir": "src",
+    "strict": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "noImplicitAny": true
+  },
+
+  // which mean we are going to include all file in the soruce folder all the folder inside folder and file inside it
+  "include": ["src/**/*"]
+}
